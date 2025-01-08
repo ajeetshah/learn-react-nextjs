@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .rs-picker-input-group {
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.rs-picker-input-group:focus-within {
+  outline: none;
+  border: 1px solid #eb6c0b !important;
+  box-shadow: none;
+} */
+
+:root {
+  /* --rs-primary-50: #993000;
+  --rs-primary-100: #993000;
+  --rs-primary-200: #993000;
+  --rs-primary-300: #993000;
+  --rs-primary-400: #993000; */
+  --rs-primary-500: #eb6c0b;
+  /* --rs-primary-600: #993000;
+  --rs-primary-700: #993000;
+  --rs-primary-800: #993000;
+  --rs-primary-900: #993000; */
+
+  /* --rs-color-red: #111111;
+  --rs-color-orange: #111111;
+  --rs-color-yellow: #111111;
+  --rs-color-green: #111111;
+  --rs-color-cyan: #111111;
+  --rs-color-blue: #111111;
+  --rs-color-violet: #111111; */
+}
+
+.custom-rs-datepicker .rs-picker-input-group input {
+  padding-left: 5px;
+}
