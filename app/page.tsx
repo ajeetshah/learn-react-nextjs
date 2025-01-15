@@ -5,10 +5,12 @@ import { DatePicker } from "rsuite";
 
 export default function Page() {
   return (
-    <div>
+    <div className="parent bg-gray-200 p-4">
       <h1 className="text-3xl font-bold underline">Hello TailwindCSS!</h1>
       <Button>I am RSuitejs Button</Button>
       <DatePicker className="custom-rs-datepicker" />
+      <br />
+      <br />
       <ul>
         <li>
           <Link href="/">Home</Link>
@@ -17,10 +19,16 @@ export default function Page() {
           <Link href="/about">About Us</Link>
         </li>
         <li>
-          <Link href="/page1">Page1</Link>
+          <Link href="/javascript">JavaScript</Link>
         </li>
         <li>
-          <Link href="/page2">Page2</Link>
+          <Link href="/javascript#heading5">JavaScript Heading 5</Link>
+        </li>
+        <li>
+          <Link href="/java">Java</Link>
+        </li>
+        <li>
+          <Link href="/java#heading5">Java Heading 5</Link>
         </li>
       </ul>
     </div>
